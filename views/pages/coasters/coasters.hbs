@@ -1,0 +1,21 @@
+
+
+<div class="container">
+
+  
+{{#each coasters}}
+<a href="/coasters/details/{{id}}">
+
+<div class="card-coaster">
+ <p>><h3>Name: {{name}}</h1></p>
+  <h4>Description: {{description}}</h4>
+ <h4>Inversions: {{inversions}}</h4>
+  <h4>Length: {{length}}</h4>
+
+
+  <h4>Park: {{park_id.name}} </h4>
+
+   </div>
+   </a>
+{{/each}}
+</div>
