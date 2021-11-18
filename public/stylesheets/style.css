@@ -1,8 +1,64 @@
 body {
   font-family: sans-serif;
-  font-weight: 200; 
+  font-weight: 200;
+  font-family: Poppins;
 }
 
 .navbar {
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
+}
+
+.card-coaster {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 30px 0;
+  padding: 20px;
+  box-shadow: 0px 0px 30px 7px rgba(0, 0, 0, 0.88);
+  background-color: rgba(128, 128, 211, 0.226);
+  cursor: pointer;
+}
+
+.card-coaster a {
+  text-decoration: none;
+}
+
+.card-coaster:hover {
+  transform: scale(1.02);
+}
+
+.btn:hover {
+  transform: scale(1.08);
+}
+
+.card-park {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 30px 0;
+  padding: 20px;
+  box-shadow: 0px 0px 30px 7px rgba(0, 0, 0, 0.88);
+  background-color: rgba(128, 128, 211, 0.226);
+  cursor: pointer;
+  text-align: center;
+}
+.card-park:hover {
+  transform: scale(1.04);
+}
+
+.main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.btn {
+  margin: 0 5px;
+}
+
+.btn-warning,
+.btn-info {
+  font-size: 1.5rem;
+  border-radius: 25px;
 }
